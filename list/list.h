@@ -61,7 +61,7 @@ tList list_initialize();
 
 /* purpose: add an element to the beginning of a list
  * input:   a list and an element
- * result:  the list [element|list]
+ * result:  the list [element|list]i
  */
 tList list_insert_beginning(tList l, void *e);
 

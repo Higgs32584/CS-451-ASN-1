@@ -27,6 +27,7 @@ int int_hash(void *d)
 
 void int_print(void *d, bool last)
 {
+	
   printf("%d ", *(int*)d);   // the same cast (packed) all on one line
 }
 
